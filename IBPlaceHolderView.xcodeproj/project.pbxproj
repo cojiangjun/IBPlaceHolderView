@@ -8,12 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		76AFCBC91C76C09F00705F13 /* IBPlaceHolderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFCBC81C76C09F00705F13 /* IBPlaceHolderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76AFCBD11C76C0C700705F13 /* IBPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBD01C76C0C700705F13 /* IBPlaceHolderView.swift */; };
+		76AFCBD91C76C12F00705F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBD81C76C12F00705F13 /* AppDelegate.swift */; };
+		76AFCBDB1C76C12F00705F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBDA1C76C12F00705F13 /* ViewController.swift */; };
+		76AFCBDE1C76C12F00705F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AFCBDC1C76C12F00705F13 /* Main.storyboard */; };
+		76AFCBE01C76C12F00705F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AFCBDF1C76C12F00705F13 /* Assets.xcassets */; };
+		76AFCBE31C76C12F00705F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AFCBE11C76C12F00705F13 /* LaunchScreen.storyboard */; };
+		76AFCBE91C76C18000705F13 /* Subview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76AFCBE81C76C18000705F13 /* Subview.xib */; };
+		76AFCBEB1C76C18C00705F13 /* SubSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76AFCBEA1C76C18C00705F13 /* SubSubView.xib */; };
+		76AFCBF01C76D07D00705F13 /* IBPlaceHolderView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFCBC51C76C09F00705F13 /* IBPlaceHolderView.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76AFCBEE1C76D07900705F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AFCBBC1C76C09F00705F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AFCBC41C76C09F00705F13;
+			remoteInfo = IBPlaceHolderView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		76AFCBC51C76C09F00705F13 /* IBPlaceHolderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBPlaceHolderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AFCBC81C76C09F00705F13 /* IBPlaceHolderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPlaceHolderView.h; sourceTree = "<group>"; };
 		76AFCBCA1C76C09F00705F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AFCBD01C76C0C700705F13 /* IBPlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBPlaceHolderView.swift; sourceTree = "<group>"; };
+		76AFCBD61C76C12F00705F13 /* IBPlaceHolderViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBPlaceHolderViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AFCBD81C76C12F00705F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76AFCBDA1C76C12F00705F13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76AFCBDD1C76C12F00705F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76AFCBDF1C76C12F00705F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76AFCBE21C76C12F00705F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76AFCBE41C76C12F00705F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AFCBE81C76C18000705F13 /* Subview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Subview.xib; sourceTree = "<group>"; };
+		76AFCBEA1C76C18C00705F13 /* SubSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubSubView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +53,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76AFCBD31C76C12F00705F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFCBF01C76D07D00705F13 /* IBPlaceHolderView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				76AFCBC71C76C09F00705F13 /* IBPlaceHolderView */,
+				76AFCBD71C76C12F00705F13 /* IBPlaceHolderViewDemo */,
 				76AFCBC61C76C09F00705F13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				76AFCBC51C76C09F00705F13 /* IBPlaceHolderView.framework */,
+				76AFCBD61C76C12F00705F13 /* IBPlaceHolderViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +86,33 @@
 			isa = PBXGroup;
 			children = (
 				76AFCBC81C76C09F00705F13 /* IBPlaceHolderView.h */,
+				76AFCBD01C76C0C700705F13 /* IBPlaceHolderView.swift */,
 				76AFCBCA1C76C09F00705F13 /* Info.plist */,
 			);
 			path = IBPlaceHolderView;
+			sourceTree = "<group>";
+		};
+		76AFCBD71C76C12F00705F13 /* IBPlaceHolderViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				76AFCBD81C76C12F00705F13 /* AppDelegate.swift */,
+				76AFCBDA1C76C12F00705F13 /* ViewController.swift */,
+				76AFCBDC1C76C12F00705F13 /* Main.storyboard */,
+				76AFCBE81C76C18000705F13 /* Subview.xib */,
+				76AFCBEA1C76C18C00705F13 /* SubSubView.xib */,
+				76AFCBEC1C76C19700705F13 /* SupportFiles */,
+			);
+			path = IBPlaceHolderViewDemo;
+			sourceTree = "<group>";
+		};
+		76AFCBEC1C76C19700705F13 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				76AFCBDF1C76C12F00705F13 /* Assets.xcassets */,
+				76AFCBE11C76C12F00705F13 /* LaunchScreen.storyboard */,
+				76AFCBE41C76C12F00705F13 /* Info.plist */,
+			);
+			name = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +147,38 @@
 			productReference = 76AFCBC51C76C09F00705F13 /* IBPlaceHolderView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		76AFCBD51C76C12F00705F13 /* IBPlaceHolderViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AFCBE51C76C12F00705F13 /* Build configuration list for PBXNativeTarget "IBPlaceHolderViewDemo" */;
+			buildPhases = (
+				76AFCBD21C76C12F00705F13 /* Sources */,
+				76AFCBD31C76C12F00705F13 /* Frameworks */,
+				76AFCBD41C76C12F00705F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AFCBEF1C76D07900705F13 /* PBXTargetDependency */,
+			);
+			name = IBPlaceHolderViewDemo;
+			productName = IBPlaceHolderViewDemo;
+			productReference = 76AFCBD61C76C12F00705F13 /* IBPlaceHolderViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		76AFCBBC1C76C09F00705F13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "GF Securities";
 				TargetAttributes = {
 					76AFCBC41C76C09F00705F13 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					76AFCBD51C76C12F00705F13 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -104,12 +189,14 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 76AFCBBB1C76C09F00705F13;
 			productRefGroup = 76AFCBC61C76C09F00705F13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				76AFCBD51C76C12F00705F13 /* IBPlaceHolderViewDemo */,
 				76AFCBC41C76C09F00705F13 /* IBPlaceHolderView */,
 			);
 		};
@@ -123,6 +210,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76AFCBD41C76C12F00705F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFCBEB1C76C18C00705F13 /* SubSubView.xib in Resources */,
+				76AFCBE31C76C12F00705F13 /* LaunchScreen.storyboard in Resources */,
+				76AFCBE91C76C18000705F13 /* Subview.xib in Resources */,
+				76AFCBE01C76C12F00705F13 /* Assets.xcassets in Resources */,
+				76AFCBDE1C76C12F00705F13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -130,10 +229,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76AFCBD11C76C0C700705F13 /* IBPlaceHolderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFCBD21C76C12F00705F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFCBDB1C76C12F00705F13 /* ViewController.swift in Sources */,
+				76AFCBD91C76C12F00705F13 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76AFCBEF1C76D07900705F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AFCBC41C76C09F00705F13 /* IBPlaceHolderView */;
+			targetProxy = 76AFCBEE1C76D07900705F13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76AFCBDC1C76C12F00705F13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AFCBDD1C76C12F00705F13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76AFCBE11C76C12F00705F13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AFCBE21C76C12F00705F13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		76AFCBCB1C76C09F00705F13 /* Debug */ = {
@@ -228,6 +364,25 @@
 		76AFCBCE1C76C09F00705F13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IBPlaceHolderView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.gf.com.IBPlaceHolderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76AFCBCF1C76C09F00705F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -239,21 +394,27 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		76AFCBCF1C76C09F00705F13 /* Release */ = {
+		76AFCBE61C76C12F00705F13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = IBPlaceHolderView/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.com.gf.com.IBPlaceHolderView;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IBPlaceHolderViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.gf.com.IBPlaceHolderViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		76AFCBE71C76C12F00705F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IBPlaceHolderViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.gf.com.IBPlaceHolderViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -274,6 +435,14 @@
 			buildConfigurations = (
 				76AFCBCE1C76C09F00705F13 /* Debug */,
 				76AFCBCF1C76C09F00705F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76AFCBE51C76C12F00705F13 /* Build configuration list for PBXNativeTarget "IBPlaceHolderViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AFCBE61C76C12F00705F13 /* Debug */,
+				76AFCBE71C76C12F00705F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
