@@ -9,10 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var placeHolder: IBPlaceHolderView?
+    var contentView: UIView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        contentView = placeHolder?.view
+        
+        let lable = UILabel()
+        lable.translatesAutoresizingMaskIntoConstraints = false
+        lable.text = "I'm added programmatically"
+        contentView?.addSubview(lable)
+        
+        contentView?.addConstraint(NSLayoutConstraint(
+            item: lable,
+            attribute: .CenterX,
+            relatedBy: .Equal,
+            toItem: contentView,
+            attribute: .CenterX,
+            multiplier: 1,
+            constant: 0))
+        contentView?.addConstraint(NSLayoutConstraint(
+            item: lable,
+            attribute: .CenterY,
+            relatedBy: .Equal,
+            toItem: contentView,
+            attribute: .CenterY,
+            multiplier: 1,
+            constant: 0))
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -12,13 +12,18 @@ class IBPlaceHolderView: UIView {
     @IBInspectable var xibName: String?
     @IBInspectable var restorationID: String?
     
+    private var nibView: UIView?
+    var view: UIView {
+        get {
+            return nibView!
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
 
         assert(xibName != nil, "Xib place holder view need set xib name.")
         assert(restorationID != nil, "Xib place holder view need set restoration ID.")
-
-        var nibView: UIView?
         
         let nib = UINib(nibName: xibName!, bundle: nil)
         let views = nib.instantiateWithOwner(nil, options: nil)

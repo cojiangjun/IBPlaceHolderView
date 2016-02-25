@@ -17,6 +17,7 @@
 		76AFCBE91C76C18000705F13 /* Subview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76AFCBE81C76C18000705F13 /* Subview.xib */; };
 		76AFCBEB1C76C18C00705F13 /* SubSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76AFCBEA1C76C18C00705F13 /* SubSubView.xib */; };
 		76AFCBF01C76D07D00705F13 /* IBPlaceHolderView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFCBC51C76C09F00705F13 /* IBPlaceHolderView.framework */; };
+		76CFF06A1C7EA9C200DDFE2C /* IBPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBD01C76C0C700705F13 /* IBPlaceHolderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CFF06A1C7EA9C200DDFE2C /* IBPlaceHolderView.swift in Sources */,
 				76AFCBDB1C76C12F00705F13 /* ViewController.swift in Sources */,
 				76AFCBD91C76C12F00705F13 /* AppDelegate.swift in Sources */,
 			);
@@ -437,6 +439,7 @@
 				76AFCBCF1C76C09F00705F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76AFCBE51C76C12F00705F13 /* Build configuration list for PBXNativeTarget "IBPlaceHolderViewDemo" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +448,7 @@
 				76AFCBE71C76C12F00705F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
